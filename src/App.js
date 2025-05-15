@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import ContactForm from './components/ContactForm';
 import SocialLinks from './components/SocialLinks';
 import './App.css';
+import cengSVG from './images/ceng.svg';
+
 
 function App() {
   const [text, setText] = useState('');
@@ -82,11 +84,8 @@ function App() {
 
             {/* Sağ taraf - Resim */}
             <div className="md:w-1/2 flex justify-center">
-              <img
-                src="https://cdn.pixabay.com/photo/2018/09/27/09/22/artificial-intelligence-3706562_1280.png"
-                alt="Developer"
-                className="w-full max-w-lg animate-float"
-              />
+              <img src={cengSVG} alt="Developer" className="w-full max-w-lg animate-float" />
+
             </div>
           </div>
         </div>
