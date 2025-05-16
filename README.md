@@ -1,5 +1,5 @@
-
-## [Live Site](https://barisportfolyo.vercel.app/)
+## Live Site
+You can click [here](https://barisportfolyo.vercel.app/)
 
 # Getting Started with Create React App
 
